@@ -46,4 +46,6 @@ for report_id, df in dataframes.items():
     print(f"Report ID: {report_id}")
 
 # Atribui os reports a dataframes específicos para manipulação
-df = dataframes[14319]
+def carregar_dataframe():
+    df = dataframes[14319]
+    return df
